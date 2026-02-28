@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+
+# Local dev
+.claude/
+.worktrees/
+.playwright-mcp/

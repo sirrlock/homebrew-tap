@@ -1,0 +1,22 @@
+# sirrlock/homebrew-tap — Sirr Homebrew Tap
+
+Homebrew tap for Sirr — the ephemeral secret manager.
+
+## Install
+
+brew tap sirrlock/tap
+brew install sirrlock/tap/sirrd   # Server daemon
+brew install sirrlock/tap/sirr    # CLI client
+
+## Run as service
+
+brew services start sirrlock/tap/sirrd
+
+## Formulas
+
+sirrd — Sirr server daemon (self-hosted ephemeral secret vault)
+sirr  — Sirr CLI client (push, get, and manage secrets)
+
+## Source
+
+github.com/sirrlock/homebrew-tap
