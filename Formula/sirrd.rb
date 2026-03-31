@@ -44,6 +44,9 @@ class Sirrd < Formula
     <<~EOS
       Thanks for installing sirrd!
 
+      Note: The CLI defaults to https://sirrlock.com (zero-config cloud).
+      Only install sirrd if you want a self-hosted instance.
+
       Set your master key and start the server:
         export SIRR_MASTER_KEY="$(openssl rand -hex 32)"
         sirrd serve

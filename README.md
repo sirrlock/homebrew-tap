@@ -14,8 +14,8 @@ brew install sirrlock/tap/sirr    # CLI client
 
 | Formula | Description |
 |---------|-------------|
-| `sirrd` | Sirr daemon — self-hosted secret vault server |
-| `sirr`  | Sirr CLI — push, get, and manage secrets from the terminal |
+| `sirrd` | Sirr daemon — self-hosted ephemeral secret vault server |
+| `sirr`  | Sirr CLI — push (dead drop), set (org secrets), get, and audit |
 
 ## Run sirrd as a background service
 

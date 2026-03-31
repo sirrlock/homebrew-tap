@@ -1,5 +1,5 @@
 class Sirr < Formula
-  desc "CLI client for Sirr — push, get, and manage ephemeral secrets"
+  desc "CLI client for Sirr — push (dead drop), set (org secrets), get, and audit"
   homepage "https://github.com/sirrlock/sirr"
   version "1.0.46"
   license "MIT"
