@@ -1,26 +1,26 @@
 class Sirrd < Formula
   desc "Sirr daemon — self-hosted ephemeral secret vault server"
   homepage "https://github.com/sirrlock/sirr"
-  version "1.0.47"
+  version "1.0.48"
   license "BSL-1.1"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sirrlock/sirr/releases/download/v#{version}/sirrd-darwin-arm64.tar.gz"
-      sha256 "559baf1652868aa19fc7127872bc60fe16793618c5251e3a951247f90be4b9a4"
+      sha256 "9553b1402f9dd61ba19dc372b0f55601f9e9995e09949dc6702a944bacf3e489"
     else
       url "https://github.com/sirrlock/sirr/releases/download/v#{version}/sirrd-darwin-x64.tar.gz"
-      sha256 "ab2cffc752820866e911dee0827a0f2f99e25ab7a91e732598481dcf60d9989d"
+      sha256 "cd8b8b77a3387adaff2f7c3c83980425ae5dae55a2322fefd36554a9aab1ae10"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/sirrlock/sirr/releases/download/v#{version}/sirrd-linux-arm64.tar.gz"
-      sha256 "cbb428d839c81816a852c234971569b85721f53f68f73e0bc85e41cc48b4c780"
+      sha256 "cbe1a4b1072ee0892e1def1abd7fa9358853f09466d240193089d55a7077f00d"
     else
       url "https://github.com/sirrlock/sirr/releases/download/v#{version}/sirrd-linux-x64.tar.gz"
-      sha256 "78e936292f67998fed07e7c5a001ed0f0ed37d69e541c9599f72bf8c8bd2deae"
+      sha256 "e4f89ca237c8f9ba8254aa97e9a3ae4fa00cddd3976c073c06f89d46b5f968c4"
     end
   end
 
